@@ -167,3 +167,25 @@ form input:focus::placeholder {
         width: 100vw;
     }
 }
+@media (max-width: 960px){
+    .inner-left h1 {
+        font-size: 40px;
+    }
+    .inner-left p{
+        font-size: 18px;
+    }
+    .right-content{
+        width: 50%;
+       }
+       .button-line p{
+        font-size: 12px;
+       }
+}
+@media (max-width: 800px){
+   .right-content{
+    width: 50%;
+   }
+   .button-line p{
+    font-size: 10px;
+   }
+}
