@@ -146,7 +146,7 @@ form input:focus::placeholder {
     cursor: pointer;
 }
 .btn:hover{
-    background-color:  #36a420;;
+    background-color: #36a420;;
 }
 
 .button-line p{
@@ -188,4 +188,36 @@ form input:focus::placeholder {
    .button-line p{
     font-size: 10px;
    }
+}
+@media (max-width: 650px){
+     .inner-div{
+        flex-direction: column;
+    }
+    .inner-left p{
+        display: none;
+    }
+    .inner-left h1{
+        margin-top: 50px;
+    }
+    .left-content{
+        width: 60%;
+        justify-content: center;
+    }
+    .right-content{
+        width: 90%;
+    }
+}
+@media (max-width: 490px){
+    .inner-left p{
+        display: none;
+    }
+    .inner-left h1{
+        margin-top: 50px;
+    }
+    .right-content{
+        width: 100%;
+    }
+    .newAccountBtn{
+        font-size: 14px;
+    }
 }
