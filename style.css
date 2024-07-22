@@ -201,6 +201,8 @@ form input:focus::placeholder {
     .inner-left p{
         display: none;
         margin-bottom: 0px;
+        padding-top: 0p;
+        font-size: 1px;
     }
     .inner-left{
         display: flex;
@@ -209,6 +211,7 @@ form input:focus::placeholder {
     }
     .inner-left h1{
        display: none;
+       font-size: 1px;
     }
     .left-content{
         width: 60%;
@@ -227,9 +230,12 @@ form input:focus::placeholder {
     .inner-left p{
         display: none;
         margin-bottom: 0px;
+        padding-top: 0p;
+        font-size: 1px;
     }
     .inner-left h1{
-       display: none;
+        display: none;
+        font-size: 1px;
     }
     .right-content{
         width: 100%;
