@@ -55,6 +55,11 @@ a:hover{
     padding-top: 5px;
 }
 
+.responsive-img {
+    display: none; 
+    max-width: 100%;
+}
+
 .right-content {
     /* background-color: red; */
     width: 38%;
@@ -190,14 +195,20 @@ form input:focus::placeholder {
    }
 }
 @media (max-width: 650px){
-     .inner-div{
+    .inner-div{
         flex-direction: column;
     }
     .inner-left p{
         display: none;
+        margin-bottom: 0px;
+    }
+    .inner-left{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
     }
     .inner-left h1{
-        margin-top: 50px;
+       display: none;
     }
     .left-content{
         width: 60%;
@@ -206,18 +217,34 @@ form input:focus::placeholder {
     .right-content{
         width: 90%;
     }
+    .responsive-img {
+        display: block; 
+        margin-bottom: 20px;
+        height: 100px;
+    }
 }
 @media (max-width: 490px){
     .inner-left p{
         display: none;
+        margin-bottom: 0px;
     }
     .inner-left h1{
-        margin-top: 50px;
+       display: none;
     }
     .right-content{
         width: 100%;
     }
     .newAccountBtn{
-        font-size: 14px;
+        font-size: 12px;
+    }
+    .inner-left{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .responsive-img {
+        display: block; 
+        margin-bottom: 20px;
+        height: 80px;
     }
 }
